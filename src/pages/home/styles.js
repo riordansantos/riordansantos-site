@@ -1,7 +1,6 @@
 import styled from "styled-components";
-import theme from "../../styles/theme";
 export const Container = styled.section`
-  padding: 1rem 10%;
+  padding: 2rem 10%;
   background: ${({ theme }) => theme.color.bg};
   display: flex;
 `;
@@ -41,13 +40,58 @@ export const LeftContainer = styled.div`
     }
     
   }
+  .animaLeft {
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: animaLeft 0.5s forwards;
+  }
+  @keyframes animaLeft {
+    to {
+      opacity: 1;
+      transform: initial;
+    }
+  }
+
 `;
 export const RightContainer = styled.div`
   width: 50%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   img {
+
     max-width: 300px;
-    border-radius: 50%;
+    width: 250px;
+    height: 320px;
+    border-radius: 10%;
+    &:hover{
+      animation: noBorder 1s forwards;
+      -webkit-animation-name: noBorder;
+      animation-name: noBorder;
+    
+    }
+  }
+  @-webkit-keyframes noBorder {
+    to {
+      -webkit-border-radius: 1px;
+    }
+    
+  }
+
+  @keyframes noBorder {
+   to{
+    border-radius: 1px;
+   }
+  }
+
+  .animaRight {
+    opacity: 0;
+    transform: translateX(20px);
+    animation: animaRight 0.5s forwards;
+  }
+  @keyframes animaRight {
+    to {
+      opacity: 1;
+      transform: initial;
+    }
   }
 `;
