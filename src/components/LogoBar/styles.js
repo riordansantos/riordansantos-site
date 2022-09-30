@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background: #edf0f4;
+  background: #cddef4;
   display: flex;
   justify-content: space-around;
   //column-gap: 2rem;

@@ -13,7 +13,7 @@ export const LeftContainer = styled.div`
 
   h1 {
     font-size: 3em;
-    font-weight: 500 ;
+    font-weight: 500;
   }
   p {
     text-align: left;
@@ -27,7 +27,7 @@ export const LeftContainer = styled.div`
     list-style: none;
 
     li {
-        display: flex;
+      display: flex;
       &:before {
         content: "";
         display: block;
@@ -38,7 +38,6 @@ export const LeftContainer = styled.div`
         background: ${({ theme }) => theme.color.secondaryColor};
       }
     }
-    
   }
   .animaLeft {
     opacity: 0;
@@ -51,36 +50,32 @@ export const LeftContainer = styled.div`
       transform: initial;
     }
   }
-
 `;
 export const RightContainer = styled.div`
   width: 50%;
   display: flex;
   justify-content: center;
   img {
-
     max-width: 300px;
     width: 250px;
     height: 320px;
     border-radius: 10%;
-    &:hover{
+    &:hover {
       animation: noBorder 1s forwards;
       -webkit-animation-name: noBorder;
       animation-name: noBorder;
-    
     }
   }
   @-webkit-keyframes noBorder {
     to {
       -webkit-border-radius: 1px;
     }
-    
   }
 
   @keyframes noBorder {
-   to{
-    border-radius: 1px;
-   }
+    to {
+      border-radius: 1px;
+    }
   }
 
   .animaRight {

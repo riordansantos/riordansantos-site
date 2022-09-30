@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "../../components/Head";
 import LogoBar from "../../components/LogoBar/LogoBar";
+import Projects from "../../components/Projects/Projects";
+import Footer from "../../components/Footer/Footer";
 import { Container, LeftContainer, RightContainer } from "./styles";
 import image from "../../assets/images/perfil-menor.jpg";
 const Home = () => {
@@ -13,7 +15,7 @@ const Home = () => {
             Riordan
             <br /> dos Santos
           </h1>
-          <p className="animaLeft">FRONT-END DEVELOPER</p>
+          <p className="animaLeft">FRONT-END WEB DEVELOPER 👨‍💻</p>
           <p className="animaLeft">Olá, seja bem vinda(o)!</p>
           <ul className="animaLeft">
             <li className="list-item">Tenho 23 anos;</li>
@@ -37,6 +39,8 @@ const Home = () => {
         </RightContainer>
       </Container>
       <LogoBar />
+      <Projects/>
+      <Footer/>
     </div>
   );
 };

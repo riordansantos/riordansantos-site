@@ -1,0 +1,11 @@
+import styled from "styled-components";
+
+export const Container = styled.div`
+  background: ${({theme}) => theme.color.bg};
+  h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1.5rem 10%;
+  }
+`;
