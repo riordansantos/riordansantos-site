@@ -39,8 +39,8 @@ const Home = () => {
         </RightContainer>
       </Container>
       <LogoBar />
-      <Projects/>
-      <Footer/>
+      <Projects />
+      <Footer />
     </div>
   );
 };

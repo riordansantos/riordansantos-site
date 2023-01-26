@@ -7,11 +7,10 @@ function Header() {
       <div className="navigation">
         <nav>
           <NavLink to="/" end>
-            Home
-          </NavLink>{" "}
-          |<NavLink to="experiencia">Experiência</NavLink> |
+            Home 
+          </NavLink> |
           <NavLink to="portifolio">Portifólio</NavLink> |
-          <NavLink to="contato">Contato</NavLink>
+          <NavLink to="sobre">Sobre</NavLink>
         </nav>
       </div>
     </Container>
