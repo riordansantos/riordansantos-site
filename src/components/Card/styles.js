@@ -7,7 +7,6 @@ export const Container = styled.div`
   flex-direction: column;
   border-radius: 15px;
   .image {
-
     img {
       max-width: 100%;
     }
@@ -17,7 +16,6 @@ export const Container = styled.div`
     padding-bottom: 1rem;
   }
   .title {
- 
     h3 {
       font-size: 1.3em;
       font-weight: 500;
@@ -25,17 +23,15 @@ export const Container = styled.div`
     }
   }
   .text {
- 
-    p{
-        text-align: justify;
+    p {
+      text-align: justify;
     }
-    margin-bottom: 0.7rem
+    margin-bottom: 0.7rem;
   }
   .link {
-  
-    a{
-        text-decoration: none;
-        font-weight: 400;
+    a {
+      text-decoration: none;
+      font-weight: 400;
     }
   }
 `;
