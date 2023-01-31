@@ -18,7 +18,7 @@ const Home = () => {
           <p className="animaLeft">FRONT-END WEB DEVELOPER 👨‍💻</p>
           <p className="animaLeft">Olá, seja bem vinda(o)!</p>
           <ul className="animaLeft">
-            <li className="list-item">Tenho 23 anos;</li>
+            <li className="list-item">Tenho 24 anos;</li>
             <li className="list-item">Sou maranhense;</li>
             <li className="list-item">
               Bacharel em Ciência e Tecnologia(UFMA);

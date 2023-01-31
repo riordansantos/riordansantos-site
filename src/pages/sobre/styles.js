@@ -3,7 +3,7 @@ export const Container = styled.section`
   padding: 2rem 10%;
   background: ${({ theme }) => theme.color.bg};
   display: flex;
-
+  height: 80vh;
   .contacts {
     display: flex;
     gap: 1rem;
@@ -23,6 +23,11 @@ export const Container = styled.section`
       height: max-content;
       }
     }
+    .whatsapp{
+     display: flex;
+     align-items: center;
+     gap: 0.5rem;
+    }
   }
 
   .courses {
@@ -40,6 +45,7 @@ export const Container = styled.section`
   }
 `;
 export const LeftContainer = styled.div`
+  //margin-top: -6rem;
   width: 50%;
   display: flex;
   justify-content: center;
@@ -90,17 +96,7 @@ export const RightContainer = styled.div`
   width: 50%;
   display: flex;
   justify-content: center;
-  img {
-    max-width: 300px;
-    width: 250px;
-    height: 320px;
-    border-radius: 10%;
-    &:hover {
-      animation: noBorder 1s forwards;
-      -webkit-animation-name: noBorder;
-      animation-name: noBorder;
-    }
-  }
+
   @-webkit-keyframes noBorder {
     to {
       -webkit-border-radius: 1px;
