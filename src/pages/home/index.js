@@ -28,7 +28,7 @@ const Home = () => {
             </li>
           </ul>
           <p className="animaLeft">
-            Trabalho há 1 ano e meio com Front-end, utilizando diariamente
+            Trabalho há 2 anos com Front-end, utilizando diariamente
             JavaScript com React.Js.
           </p>
         </LeftContainer>

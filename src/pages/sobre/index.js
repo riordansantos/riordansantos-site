@@ -9,8 +9,9 @@ import image from "../../assets/images/perfil-menor.jpg";
 function Sobre() {
   return (
     <>
+    <Head title="Sobre" />
+
       <Container>
-        <Head title="Sobre" />
         <LeftContainer>
           <h1 className="animaLeft">
             Riordan
@@ -29,8 +30,8 @@ function Sobre() {
             </li>
           </ul>
           <p className="animaLeft">
-            Trabalho há 1 ano e meio com Front-end, utilizando diariamente
-            JavaScript com React.Js.
+            Trabalho há 2 anos com Front-end, utilizando diariamente JavaScript
+            com React.Js.
           </p>
         </LeftContainer>
         <RightContainer>
@@ -102,7 +103,32 @@ function Sobre() {
                     <p>SASS</p>
                     <p>TAILWIND</p>
                     <p>JEST - REACTJS</p>
-                    <p>FIGMA</p>
+                    <p>REST API</p>
+                  </div>
+                </div>
+              }
+            />
+            <ToggleCard
+              buttonTitle="Experiência"
+              content={
+                <div className="courses">
+                  <div className="left">
+                    <h2>UNASUS-UFMA</h2>
+                    <p>
+                      Como front-end, desenvolvi infográficos interativos em
+                      ReactJS para alunos da área da saúde, que podem ser
+                      exibidos em qualquer dispositivo, desde smartphones a
+                      televisores.
+                      <br />
+                      Fui um dos responsáveis pela implementação do modelo
+                      padrão do infográfico, que otimizou o processo de
+                      construção de novos conteúdos.
+                      <br />
+                      Fui o responsável pela construção da acessibilidade,
+                      implementando o modo de alto contraste, a navegação pelo
+                      teclado, a mudança de altura de fontes e o leitor de tela.
+                      <br />
+                    </p>
                   </div>
                 </div>
               }

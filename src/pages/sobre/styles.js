@@ -3,7 +3,9 @@ export const Container = styled.section`
   padding: 2rem 10%;
   background: ${({ theme }) => theme.color.bg};
   display: flex;
-  height: 80vh;
+  flex-direction: column;
+  //height: 80vh;
+  
   .contacts {
     display: flex;
     gap: 1rem;
@@ -46,12 +48,12 @@ export const Container = styled.section`
 `;
 export const LeftContainer = styled.div`
   //margin-top: -6rem;
-  width: 50%;
+
   display: flex;
   justify-content: center;
 
   flex-direction: column;
-
+overflow: hidden;
   h1 {
     font-size: 3em;
     font-weight: 500;
@@ -93,10 +95,11 @@ export const LeftContainer = styled.div`
   }
 `;
 export const RightContainer = styled.div`
-  width: 50%;
+
   display: flex;
   justify-content: center;
-
+  overflow-y: auto;
+  overflow-x: hidden;
   @-webkit-keyframes noBorder {
     to {
       -webkit-border-radius: 1px;

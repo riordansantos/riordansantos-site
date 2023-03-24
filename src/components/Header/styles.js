@@ -26,7 +26,8 @@ export const Container = styled.header`
   }
   .active {
     z-index: 1;
-
+  color: ${({theme}) => theme.color.darkGrey};
+    
     @keyframes surgeMark {
       to {
         border-radius: 3px;

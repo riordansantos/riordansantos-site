@@ -6,6 +6,13 @@ export const Container = styled.div`
   justify-content: space-around;
   //column-gap: 2rem;
   padding: 1rem 0;
+  .react{
+    > svg{
+      fill: black;
+
+    }
+    
+  }
   .pulse {
     animation: pulse 1s infinite;
     display: table;

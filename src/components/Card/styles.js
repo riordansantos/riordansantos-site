@@ -5,6 +5,7 @@ export const Container = styled.div`
   width: 27vw;
   display: flex;
   flex-direction: column;
+
   border-radius: 15px;
   .image {
     img {
@@ -14,6 +15,9 @@ export const Container = styled.div`
   .bottom {
     padding: 0.6rem;
     padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .title {
     h3 {

@@ -9,7 +9,6 @@ function Header() {
           <NavLink to="/" end>
             Home 
           </NavLink> |
-          <NavLink to="portifolio">Portifólio</NavLink> |
           <NavLink to="sobre">Sobre</NavLink>
         </nav>
       </div>
