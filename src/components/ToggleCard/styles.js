@@ -6,6 +6,7 @@ flex-direction: column;
 align-items: center;
 margin: 1rem 0rem;
   button {
+    width: 20vw;
     padding: 0.5rem 1.3rem;
     border: none;
     border-radius: 10px;
@@ -26,4 +27,22 @@ margin: 1rem 0rem;
     padding: 1rem;
     border-radius: 10px;
   }
+
+  h2{
+    font-size: 1.8rem;
+    border-bottom: solid 2px ${({theme}) => theme.color.primaryColor};
+    max-width: max-content;
+    text-align: center;
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.6rem;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+  }
+  #lineBigger{
+    line-height: 1.3rem;
+   
+  }
+
 `;

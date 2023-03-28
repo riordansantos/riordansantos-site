@@ -5,7 +5,7 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   //height: 80vh;
-  
+
   .contacts {
     display: flex;
     gap: 1rem;
@@ -20,15 +20,15 @@ export const Container = styled.section`
         transform: scale(1.1);
         transition: 0.4s;
       }
-      img{
+      img {
         max-width: 40px;
-      height: max-content;
+        height: max-content;
       }
     }
-    .whatsapp{
-     display: flex;
-     align-items: center;
-     gap: 0.5rem;
+    .whatsapp {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
     }
   }
 
@@ -47,13 +47,10 @@ export const Container = styled.section`
   }
 `;
 export const LeftContainer = styled.div`
-  //margin-top: -6rem;
-
   display: flex;
   justify-content: center;
-
   flex-direction: column;
-overflow: hidden;
+  overflow: hidden;
   h1 {
     font-size: 3em;
     font-weight: 500;
@@ -93,9 +90,16 @@ overflow: hidden;
       transform: initial;
     }
   }
+  .perfil {
+    img {
+      max-width: 100%;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+  }
 `;
 export const RightContainer = styled.div`
-
   display: flex;
   justify-content: center;
   overflow-y: auto;

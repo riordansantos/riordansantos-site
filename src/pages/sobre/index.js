@@ -4,34 +4,21 @@ import Footer from "../../components/Footer/Footer";
 import ToggleCard from "../../components/ToggleCard/ToggleCard";
 import { Container, LeftContainer, RightContainer } from "./styles";
 import whatsapp from "../../assets/images/whatsapplogo.svg";
-import image from "../../assets/images/perfil-menor.jpg";
 
 function Sobre() {
   return (
     <>
-    <Head title="Sobre" />
+      <Head title="Sobre" />
 
       <Container>
         <LeftContainer>
-          <h1 className="animaLeft">
-            Riordan
-            <br /> dos Santos
-          </h1>
-          <p className="animaLeft">FRONT-END WEB DEVELOPER 👨‍💻</p>
-          <p className="animaLeft">Olá, seja bem vinda(o)!</p>
-          <ul className="animaLeft">
-            <li className="list-item">Tenho 24 anos;</li>
-            <li className="list-item">Sou maranhense;</li>
-            <li className="list-item">
-              Bacharel em Ciência e Tecnologia(UFMA);
-            </li>
-            <li className="list-item">
-              Graduando em Engenharia da Computação(UFMA).
-            </li>
-          </ul>
+          {/* <div className="perfil">
+            <img src={image} alt="Perfil" />
+          </div> */}
           <p className="animaLeft">
-            Trabalho há 2 anos com Front-end, utilizando diariamente JavaScript
-            com React.Js.
+            Sou um maranhense de 24 anos e estou há 2 anos trabalhando diariamente com
+            JavasScript e Typescript. Apaixonado por código e sou gamer nas horas
+            vagas. Estou sempre procurando por novas coisas para aprender.
           </p>
         </LeftContainer>
         <RightContainer>
@@ -112,21 +99,19 @@ function Sobre() {
               buttonTitle="Experiência"
               content={
                 <div className="courses">
-                  <div className="left">
-                    <h2>UNASUS-UFMA</h2>
+                  <div className="left" id="lineBigger">
+                    <div className="title">
+                      <h2>UNASUS-UFMA</h2>
+                    </div>
                     <p>
-                      Como front-end, desenvolvi infográficos interativos em
-                      ReactJS para alunos da área da saúde, que podem ser
-                      exibidos em qualquer dispositivo, desde smartphones a
-                      televisores.
+                      Como front-end, desenvolvo diariamente infográficos
+                      interativos em ReactJS para alunos da área da saúde, que
+                      podem ser exibidos em qualquer dispositivo, respeitando a
+                      responsividade e acessibilidade.
                       <br />
-                      Fui um dos responsáveis pela implementação do modelo
-                      padrão do infográfico, que otimizou o processo de
-                      construção de novos conteúdos.
-                      <br />
-                      Fui o responsável pela construção da acessibilidade,
-                      implementando o modo de alto contraste, a navegação pelo
-                      teclado, a mudança de altura de fontes e o leitor de tela.
+                      Faço constante atualizações no modelo padrão do
+                      infográfico, o que otimiza o processo de construção de
+                      novos conteúdos.
                       <br />
                     </p>
                   </div>
