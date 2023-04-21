@@ -4,6 +4,15 @@ export const Container = styled.section`
   background: ${({ theme }) => theme.color.bg};
   display: flex;
   flex-direction: column;
+  h2{
+    font-size: 1.8rem;
+    border-bottom: solid 2px ${({theme}) => theme.color.primaryColor};
+    max-width: max-content;
+    text-align: center;
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.6rem;
+    
+  }
   //height: 80vh;
 
   .contacts {
@@ -30,10 +39,21 @@ export const Container = styled.section`
       align-items: center;
       gap: 0.5rem;
     }
+    @media(max-width: 768px){
+      flex-direction: column;
+      align-items: center;
+      img {
+        max-width: 40px;
+        height: max-content;
+      }
+    }
   }
 
   .courses {
     display: flex;
+    @media(max-width: 768px){
+      flex-direction: column;
+    }
     .left,
     .right {
       text-align: center;
@@ -51,6 +71,7 @@ export const LeftContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
+  align-items: center;
   h1 {
     font-size: 3em;
     font-weight: 500;
@@ -126,5 +147,8 @@ export const RightContainer = styled.div`
       opacity: 1;
       transform: initial;
     }
+  }
+  #normalText{
+    text-align: left;
   }
 `;

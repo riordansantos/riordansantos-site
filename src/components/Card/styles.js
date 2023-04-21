@@ -5,7 +5,9 @@ export const Container = styled.div`
   width: 27vw;
   display: flex;
   flex-direction: column;
-
+  @media(max-width: 768px){
+    width: 90%;
+  }
   border-radius: 15px;
   .image {
     img {

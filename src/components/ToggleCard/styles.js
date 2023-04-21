@@ -4,9 +4,15 @@ export const Card = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
+@media(max-width: 768px){
+  flex-direction: column;
+}
 margin: 1rem 0rem;
   button {
     width: 20vw;
+    @media(max-width: 768px){
+      width: 65vw;
+    }
     padding: 0.5rem 1.3rem;
     border: none;
     border-radius: 10px;
@@ -19,6 +25,9 @@ margin: 1rem 0rem;
     }
     &.pai{
         font-size: 1.5vw;
+        @media(max-width: 768px){
+          font-size: 1.4rem;
+        }
     }
   }
   .card{
@@ -38,7 +47,9 @@ margin: 1rem 0rem;
   }
   .title{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
   }
   #lineBigger{
     line-height: 1.3rem;

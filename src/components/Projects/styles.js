@@ -14,5 +14,12 @@ export const Container = styled.div`
     column-gap: 1rem;
     display: flex;
     justify-content: center;
+    @media(max-width: 768px){
+    
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
   }
+  }
+  
 `;

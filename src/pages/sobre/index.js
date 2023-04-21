@@ -15,6 +15,7 @@ function Sobre() {
           {/* <div className="perfil">
             <img src={image} alt="Perfil" />
           </div> */}
+          <h2>Sobre mim</h2>
           <p className="animaLeft">
             Sou um maranhense de 24 anos e estou há 2 anos trabalhando diariamente com
             JavasScript e Typescript. Apaixonado por código e sou gamer nas horas
@@ -102,8 +103,9 @@ function Sobre() {
                   <div className="left" id="lineBigger">
                     <div className="title">
                       <h2>UNASUS-UFMA</h2>
+                      <span>2021 - Presente</span>
                     </div>
-                    <p>
+                    <p id="normalText">
                       Como front-end, desenvolvo diariamente infográficos
                       interativos em ReactJS para alunos da área da saúde, que
                       podem ser exibidos em qualquer dispositivo, respeitando a

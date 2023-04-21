@@ -3,6 +3,11 @@ export const Container = styled.section`
   padding: 2rem 10%;
   background: ${({ theme }) => theme.color.bg};
   display: flex;
+  @media(max-width: 768px){
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 2rem 3%;
+  }
 `;
 export const LeftContainer = styled.div`
   width: 50%;
@@ -49,6 +54,10 @@ export const LeftContainer = styled.div`
       opacity: 1;
       transform: initial;
     }
+  }
+  @media(max-width: 768px){
+    width: 90%;
+    margin-top: 2rem;
   }
 `;
 export const RightContainer = styled.div`
