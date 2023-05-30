@@ -83,8 +83,8 @@ function Sobre() {
                     <p>REACTJS COMPLETO</p>
                     <p>JAVASCRIPT</p>
                     <p>TYPESCRIPT</p>
-                    <p>HTML</p>
-                    <p>CSS AVANÇADO</p>
+                    <p>HTML - CSS</p>
+                    <p>Next.Js</p>
                   </div>
                   <div className="right">
                     <p>STYLED COMPONENTS</p>
