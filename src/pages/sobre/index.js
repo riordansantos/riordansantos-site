@@ -84,7 +84,7 @@ function Sobre() {
                     <p>JAVASCRIPT</p>
                     <p>TYPESCRIPT</p>
                     <p>HTML - CSS</p>
-                    <p>Next.Js</p>
+                    <p>NEXT.JS</p>
                   </div>
                   <div className="right">
                     <p>STYLED COMPONENTS</p>
