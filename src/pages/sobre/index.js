@@ -18,7 +18,7 @@ function Sobre() {
           <h2>Sobre mim</h2>
           <p className="animaLeft">
             Sou um maranhense de 24 anos e estou há 2 anos trabalhando diariamente com
-            JavasScript e Typescript. Apaixonado por código e sou gamer nas horas
+            JavaScript e TypeScript. Apaixonado por código e sou gamer nas horas
             vagas. Estou sempre procurando por novas coisas para aprender.
           </p>
         </LeftContainer>
