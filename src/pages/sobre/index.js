@@ -46,7 +46,7 @@ function Sobre() {
                     Github
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/riordan-d-54800b108/"
+                    href="https://www.linkedin.com/in/riordan-santos-54800b108/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
