@@ -28,8 +28,8 @@ const Home = () => {
             </li>
           </ul>
           <p className="animaLeft">
-            Trabalho há 2 anos com Front-end, utilizando diariamente
-            JavaScript com React.Js.
+            Trabalho há 2 anos e meio com Front-end, utilizando diariamente
+            Typescript com NextJs.
           </p>
         </LeftContainer>
         <RightContainer>
