@@ -84,16 +84,16 @@ function Sobre () {
                 <div className='courses'>
                   <div className='left'>
                     <p>REACTJS COMPLETO</p>
-                    <p>JAVASCRIPT</p>
                     <p>TYPESCRIPT</p>
-                    <p>HTML - CSS</p>
-                    <p>NEXT.JS</p>
+                    <p>NEXTJS</p>
+                    <p>DOCKER</p>
+                    <p>NODE</p>
                   </div>
                   <div className='right'>
                     <p>STYLED COMPONENTS</p>
                     <p>SASS</p>
                     <p>TAILWIND</p>
-                    <p>JEST - REACTJS</p>
+                    <p>JEST</p>
                     <p>REST API</p>
                   </div>
                 </div>
@@ -106,17 +106,35 @@ function Sobre () {
                   <div className='left' id='lineBigger'>
                     <div className='title'>
                       <h2>UNASUS-UFMA</h2>
-                      <span>2021 - Presente</span>
+                      <span>2021 - 2023</span>
                     </div>
                     <p id='normalText'>
-                      Como front-end, desenvolvo diariamente infográficos
+                      Como frontend, desenvolvi diariamente infográficos
                       interativos em ReactJS para alunos da área da saúde, que
                       podem ser exibidos em qualquer dispositivo, respeitando a
                       responsividade e acessibilidade.
                       <br />
-                      Faço constante atualizações no modelo padrão do
-                      infográfico, o que otimiza o processo de construção de
-                      novos conteúdos.
+                    </p>
+                  </div>
+                </div>
+              }
+            />
+            <ToggleCard
+              buttonTitle='Experiência'
+              content={
+                <div className='courses'>
+                  <div className='left' id='lineBigger'>
+                    <div className='title'>
+                      <h2>EMSERH</h2>
+                      <span>2023 - 2024</span>
+                    </div>
+                    <p id='normalText'>
+                      Atuo como desenvolvedor fullstack. Desenvolvi um novo
+                      sistema de gestão de filas e atendimento para o
+                      consultório da empresa, otimizando o processo dentro da
+                      clínica. Além disso, desenvolvi um chatbot para
+                      automatizar o processo de agendamento de consultas, o que
+                      gerou uma melhoria significativa na experiência do paciente.
                       <br />
                     </p>
                   </div>

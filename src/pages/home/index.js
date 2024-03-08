@@ -15,7 +15,7 @@ const Home = () => {
             Riordan
             <br /> dos Santos
           </h1>
-          <p className="animaLeft">FRONT-END WEB DEVELOPER 👨‍💻</p>
+          <p className="animaLeft">FRONTEND WEB DEVELOPER 👨‍💻</p>
           <p className="animaLeft">Olá, seja bem vinda(o)!</p>
           <ul className="animaLeft">
             <li className="list-item">Tenho 25 anos;</li>
