@@ -126,7 +126,7 @@ function Sobre () {
                   <div className='left' id='lineBigger'>
                     <div className='title'>
                       <h2>EMSERH</h2>
-                      <span>2023 - 2024</span>
+                      <span>2023 - Atualmente</span>
                     </div>
                     <p id='normalText'>
                       Atuo como desenvolvedor fullstack. Desenvolvi um novo
