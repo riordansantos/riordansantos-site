@@ -105,7 +105,7 @@ function Sobre () {
                 <div className='courses'>
                   <div className='left' id='lineBigger'>
                     <div className='title'>
-                      <h2>UNASUS-UFMA</h2>
+                      <h2>UNASUS</h2>
                       <span>2021 - 2023</span>
                     </div>
                     <p id='normalText'>
