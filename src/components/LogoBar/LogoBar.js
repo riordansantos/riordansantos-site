@@ -46,10 +46,10 @@ const LogoBar = () => {
 
       <div className='logo-item'>
         <img
-          src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg'
+          src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg'
           height='60px'
           width='70px'
-          alt='sass-logo'
+          alt='jest-logo'
           className='pulse'
         />
       </div>
