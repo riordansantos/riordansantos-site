@@ -24,11 +24,11 @@ const Home = () => {
               Bacharel em Ciência e Tecnologia(UFMA);
             </li>
             <li className="list-item">
-              Graduando em Engenharia da Computação(UFMA).
+              Bacharel em Engenharia da Computação(UFMA).
             </li>
           </ul>
           <p className="animaLeft">
-            Desenvolvo softwares há 3 anos, com foco em tecnologias web.
+            Desenvolvo softwares há mais de 3 anos, com foco em tecnologias web.
           </p>
         </LeftContainer>
         <RightContainer>
