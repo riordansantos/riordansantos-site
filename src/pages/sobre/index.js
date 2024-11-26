@@ -18,8 +18,7 @@ function Sobre () {
           <h2>Sobre mim</h2>
           <p className='animaLeft'>
             Sou um maranhense de 25 anos e estou há mais de 3 anos trabalhando
-            diariamente com tecnologias da área web. Minha especialidade é
-            Frontend com Typescript e Nextjs, porém me aventuro no backend com
+            diariamente com tecnologias da área web. Trabalho diariamente com Typescript e Nextjs no Frontend, e no backend com
             Node ou NestJs. Apaixonado por código e pelos desafios que cada novo
             projeto traz. Estou sempre procurando por novas coisas para
             aprender.
@@ -87,16 +86,16 @@ function Sobre () {
                     <p>TYPESCRIPT</p>
                     <p>NEXTJS</p>
                     <p>DOCKER</p>
-                    <p>NODE</p>
+                    <p>TAILWIND</p>
                     <p>PRISMA</p>
                     <p>INGLÊS AVANÇADO</p>
                   </div>
                   <div className='right'>
-                    <p>STYLED COMPONENTS</p>
-                    <p>SASS</p>
-                    <p>TAILWIND</p>
+                    <p>NESTJS</p>
+                    <p>NODEJS</p>
+                    <p>POSTGRES</p>
+                    <p>SOLID</p>
                     <p>JEST</p>
-                    <p>REST API</p>
                     <p>CI/CD</p>
                     <p>REDIS</p>
                   </div>
@@ -115,8 +114,8 @@ function Sobre () {
                     <p id='normalText'>
                       Desenvolvi sites, e-books e infográficos interativos para
                       os Ministério da Saúde e Turismo, utilizando ReactJs com
-                      Typescript, prezando pela responsividade, acessibilidade e
-                      SEO.
+                      Typescript. Manutenção de API utilizada nos recurso
+                      educacionais com NodeJS.
                       <br />
                     </p>
                   </div>
@@ -138,7 +137,7 @@ function Sobre () {
                       Além disso, criei um Chatbot que automatizou o processo de
                       agendamento de consultas. Este sistema vem garantindo uma
                       porcentagem de 96% de satisfação no atendimento da
-                      clínica. Também desenvolvi o front-end de um sistema de
+                      clínica. Também desenvolvi um sistema de
                       gestão orçamentária da empresa, garantindo a execução das
                       metas em relação ao cumprimento de contratos. Tecnologias
                       utilizadas no frontend: NextJs 14/TypeScript/Jest. No
