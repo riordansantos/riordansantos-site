@@ -17,9 +17,9 @@ function Sobre () {
           </div> */}
           <h2>Sobre mim</h2>
           <p className='animaLeft'>
-            Sou um maranhense de 25 anos e estou há 3 anos trabalhando
+            Sou um maranhense de 25 anos e estou há mais de 3 anos trabalhando
             diariamente com tecnologias da área web. Minha especialidade é
-            frontend com typescript e Nextjs, porém me aventuro no backend com
+            Frontend com Typescript e Nextjs, porém me aventuro no backend com
             Node ou NestJs. Apaixonado por código e pelos desafios que cada novo
             projeto traz. Estou sempre procurando por novas coisas para
             aprender.
@@ -83,11 +83,13 @@ function Sobre () {
               content={
                 <div className='courses'>
                   <div className='left'>
-                    <p>REACTJS COMPLETO</p>
+                    <p>REACTJS</p>
                     <p>TYPESCRIPT</p>
                     <p>NEXTJS</p>
                     <p>DOCKER</p>
                     <p>NODE</p>
+                    <p>PRISMA</p>
+                    <p>INGLÊS AVANÇADO</p>
                   </div>
                   <div className='right'>
                     <p>STYLED COMPONENTS</p>
@@ -95,6 +97,8 @@ function Sobre () {
                     <p>TAILWIND</p>
                     <p>JEST</p>
                     <p>REST API</p>
+                    <p>CI/CD</p>
+                    <p>REDIS</p>
                   </div>
                 </div>
               }
@@ -109,10 +113,10 @@ function Sobre () {
                       <span>2021 - 2023</span>
                     </div>
                     <p id='normalText'>
-                      Como frontend, desenvolvi diariamente infográficos
-                      interativos em ReactJS para alunos da área da saúde, que
-                      podem ser exibidos em qualquer dispositivo, respeitando a
-                      responsividade e acessibilidade.
+                      Desenvolvi sites, e-books e infográficos interativos para
+                      os Ministério da Saúde e Turismo, utilizando ReactJs com
+                      Typescript, prezando pela responsividade, acessibilidade e
+                      SEO.
                       <br />
                     </p>
                   </div>
@@ -129,12 +133,16 @@ function Sobre () {
                       <span>2023 - Atualmente</span>
                     </div>
                     <p id='normalText'>
-                      Atuo como desenvolvedor fullstack. Desenvolvi um novo
-                      sistema de gestão de filas e atendimento para o
-                      consultório da empresa, otimizando o processo dentro da
-                      clínica. Além disso, desenvolvi um chatbot para
-                      automatizar o processo de agendamento de consultas, o que
-                      gerou uma melhoria significativa na experiência do paciente.
+                      Desenvolvi um painel de chamada de pacientes para a
+                      clínica da empresa, assim como a API que serve os dados.
+                      Além disso, criei um Chatbot que automatizou o processo de
+                      agendamento de consultas. Este sistema vem garantindo uma
+                      porcentagem de 96% de satisfação no atendimento da
+                      clínica. Também desenvolvi o front-end de um sistema de
+                      gestão orçamentária da empresa, garantindo a execução das
+                      metas em relação ao cumprimento de contratos. Tecnologias
+                      utilizadas no frontend: NextJs 14/TypeScript/Jest. No
+                      backend: NestJs/TypeScript/Prisma/Postgres/Docker.
                       <br />
                     </p>
                   </div>
