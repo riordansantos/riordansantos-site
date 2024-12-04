@@ -88,16 +88,16 @@ function Sobre () {
                     <p>DOCKER</p>
                     <p>TAILWIND</p>
                     <p>PRISMA</p>
-                    <p>INGLÊS AVANÇADO</p>
+                    <p>JEST</p>
                   </div>
                   <div className='right'>
                     <p>NESTJS</p>
                     <p>NODEJS</p>
                     <p>POSTGRES</p>
                     <p>SOLID</p>
-                    <p>JEST</p>
                     <p>CI/CD</p>
                     <p>REDIS</p>
+                    <p>INGLÊS AVANÇADO</p>
                   </div>
                 </div>
               }
