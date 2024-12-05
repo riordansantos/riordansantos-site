@@ -57,6 +57,7 @@ export const Container = styled.section`
     .left,
     .right {
       text-align: center;
+      width: 200px;
       p {
         border-left: solid 2px ${({ theme }) => theme.color.primaryColor};
         margin: 0.5rem;
